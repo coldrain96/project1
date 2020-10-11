@@ -6,8 +6,9 @@
   "author": "Kamil Bikmetov <justtryagain961@gmail.com>",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "lint": "eslint --ext .js,.vue ./"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
